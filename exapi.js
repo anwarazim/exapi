@@ -1,4 +1,4 @@
-// setup
+// initial setup
 var express = require('express');
 var app = express();
 
