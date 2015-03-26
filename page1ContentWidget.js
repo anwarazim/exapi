@@ -16,10 +16,12 @@ Clazz.page1ContentWidget = Clazz.extend(
                     e.placeData();
                     $.ajax({
                         url: "http://localhost:3000/details",
-                        type: "POST",
+                        type: "GET",
                 //data: postJson,
                         success: function(obj) {
+                            console.log(obj);
                             $("#result").html(obj);
+                            
                         },
                     });
                 });
