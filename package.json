@@ -1,9 +1,8 @@
 {
-    "name": "exapi",
-    "main": "exapi.js",
-    "dependencies": {
-        "express": "~4.0.0",
-        "body-parser": "~1.0.1"
-    }
+  "name": "Express-Web-App",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "~1.0.0",
+    "express": "^4.0.0"
+  }
 }
-
